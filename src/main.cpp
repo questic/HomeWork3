@@ -109,6 +109,8 @@ int main() {
             for (int i = 0; i < cStyleArraySize; ++i) {
                 std::cout << cStyleArray[i] << " ";
             }
+
+            delete[] cStyleArray;
             break;
         }
         default:
